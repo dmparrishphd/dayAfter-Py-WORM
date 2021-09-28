@@ -1,2 +1,1 @@
-# dayAfter-Py-WORM
-Compute the day after a given day on the proleptic Gregorian calendar
+[README](https://github.com/dmparrishphd/dayAfter-Py-CORW/blob/main/README.md).
