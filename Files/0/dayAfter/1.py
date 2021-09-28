@@ -9,7 +9,7 @@ def dayAfter(ymd):
             False
     def dayAfter_(ymd):
         y, m, d = ymd
-        if m, d == 2, 28:
+        if (m, d) == (2, 28):
             return (y, m, 29) if isLeap(y) else (y, 3, 1)
         if d == LAST_DAY_OF_MONTH[m]:
             return (y + 1, 1, 1) if m == 12 else (y, m + 1 , 1)
